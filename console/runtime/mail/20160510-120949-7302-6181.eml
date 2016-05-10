@@ -1,0 +1,171 @@
+Message-ID: <28d0b29f68acaa4374fd842c0e2e4c98@swift.generated>
+Date: Tue, 10 May 2016 12:09:49 +0000
+Subject: =?utf-8?Q?=D0=9D=D0=BE=D0=B2=D0=BE=D0=B5_=D1=81=D0=BE?=
+ =?utf-8?Q?=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5_?=
+ =?utf-8?Q?=D0=BB=D0=BE=D0=B3=D0=B3=D0=B5=D1=80=D0=B0?= example.com
+From: 
+To: admin@example.com, developer@example.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2016-05-10 12:09:49 [-][-][-][error][yii\console\Exception] exception
+'yi=
+i\base\InvalidRouteException' with message 'Unable to resolve the
+request=
+ "migrat".' in
+/home/sandro/server/project/repo/vendor/yiisoft/yii2/base/=
+Module.php:460
+Stack trace:
+#0
+/home/sandro/server/project/repo/vendo=
+r/yiisoft/yii2/console/Application.php(176):
+yii\base\Module->runAction('=
+migrat', Array)
+#1
+/home/sandro/server/project/repo/vendor/yiisoft/yii2=
+/console/Application.php(143):
+yii\console\Application->runAction('migrat=
+', Array)
+#2
+/home/sandro/server/project/repo/vendor/yiisoft/yii2/base/=
+Application.php(375):
+yii\console\Application->handleRequest(Object(yii\c=
+onsole\Request))
+#3 /home/sandro/server/project/repo/yii(27):
+yii\base\=
+Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' =
+with message 'Unknown command
+"migrat".' in
+/home/sandro/server/project=
+/repo/vendor/yiisoft/yii2/console/Application.php:179
+Stack trace:
+#0=
+
+/home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application=
+.php(143):
+yii\console\Application->runAction('migrat', Array)
+#1
+/ho=
+me/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375)=
+:
+yii\console\Application->handleRequest(Object(yii\console\Request))
+#=
+2 /home/sandro/server/project/repo/yii(27):
+yii\base\Application->run()=
+
+#3 {main}
+2016-05-10 12:09:49 [-][-][-][info][application] $_SERVER =
+=3D [
+    'XDG_VTNR' =3D> '7'
+    'SSH_AGENT_PID' =3D> '1246'
+    'XD=
+G_SESSION_ID' =3D> '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' =3D> '14103'=
+
+    'GPG_AGENT_INFO' =3D> '/run/user/1000/keyring/gpg:0:1'
+    'XDG_ME=
+NU_PREFIX' =3D> 'gnome-'
+    'SHELL' =3D> '/bin/bash'
+    'TERM' =3D> '=
+xterm-256color'
+    'GJS_DEBUG_OUTPUT' =3D> 'stderr'
+    'GJS_DEBUG_TOP=
+ICS' =3D> 'JS ERROR;JS LOG'
+    'USER' =3D> 'sandro'
+    'LS_COLORS' =
+=3D>
+'rs=3D0:di=3D01;34:ln=3D01;36:mh=3D00:pi=3D40;33:so=3D01;35:do=3D01;=
+35:bd=3D40;33;01:cd=3D40;33;01:or=3D40;31;01:su=3D37;41:sg=3D30;43:ca=3D30;=
+41:tw=3D30;42:ow=3D34;42:st=3D37;44:ex=3D01;32:*.tar=3D01;31:*.tgz=3D01;31:=
+*.arc=3D01;31:*.arj=3D01;31:*.taz=3D01;31:*.lha=3D01;31:*.lz4=3D01;31:*.lzh=
+=3D01;31:*.lzma=3D01;31:*.tlz=3D01;31:*.txz=3D01;31:*.tzo=3D01;31:*.t7z=3D0=
+1;31:*.zip=3D01;31:*.z=3D01;31:*.Z=3D01;31:*.dz=3D01;31:*.gz=3D01;31:*.lrz=
+=3D01;31:*.lz=3D01;31:*.lzo=3D01;31:*.xz=3D01;31:*.bz2=3D01;31:*.bz=3D01;31=
+:*.tbz=3D01;31:*.tbz2=3D01;31:*.tz=3D01;31:*.deb=3D01;31:*.rpm=3D01;31:*.ja=
+r=3D01;31:*.war=3D01;31:*.ear=3D01;31:*.sar=3D01;31:*.rar=3D01;31:*.alz=3D0=
+1;31:*.ace=3D01;31:*.zoo=3D01;31:*.cpio=3D01;31:*.7z=3D01;31:*.rz=3D01;31:*=
+.cab=3D01;31:*.jpg=3D01;35:*.jpeg=3D01;35:*.gif=3D01;35:*.bmp=3D01;35:*.pbm=
+=3D01;35:*.pgm=3D01;35:*.ppm=3D01;35:*.tga=3D01;35:*.xbm=3D01;35:*.xpm=3D01=
+;35:*.tif=3D01;35:*.tiff=3D01;35:*.png=3D01;35:*.svg=3D01;35:*.svgz=3D01;35=
+:*.mng=3D01;35:*.pcx=3D01;35:*.mov=3D01;35:*.mpg=3D01;35:*.mpeg=3D01;35:*.m=
+2v=3D01;35:*.mkv=3D01;35:*.webm=3D01;35:*.ogm=3D01;35:*.mp4=3D01;35:*.m4v=
+=3D01;35:*.mp4v=3D01;35:*.vob=3D01;35:*.qt=3D01;35:*.nuv=3D01;35:*.wmv=3D01=
+;35:*.asf=3D01;35:*.rm=3D01;35:*.rmvb=3D01;35:*.flc=3D01;35:*.avi=3D01;35:*=
+.fli=3D01;35:*.flv=3D01;35:*.gl=3D01;35:*.dl=3D01;35:*.xcf=3D01;35:*.xwd=3D=
+01;35:*.yuv=3D01;35:*.cgm=3D01;35:*.emf=3D01;35:*.axv=3D01;35:*.anx=3D01;35=
+:*.ogv=3D01;35:*.ogx=3D01;35:*.aac=3D00;36:*.au=3D00;36:*.flac=3D00;36:*.m4=
+a=3D00;36:*.mid=3D00;36:*.midi=3D00;36:*.mka=3D00;36:*.mp3=3D00;36:*.mpc=3D=
+00;36:*.ogg=3D00;36:*.ra=3D00;36:*.wav=3D00;36:*.axa=3D00;36:*.oga=3D00;36:=
+*.spx=3D00;36:*.xspf=3D00;36:'
+    'LD_LIBRARY_PATH' =3D> '/home/sandro/i=
+de/PhpStorm-145.258.2/bin:'
+    'SSH_AUTH_SOCK' =3D> '/run/user/1000/keyr=
+ing/ssh'
+    'USERNAME' =3D> 'sandro'
+    'SESSION_MANAGER' =3D>
+'loc=
+al/sandro:@/tmp/.ICE-unix/1209,unix/sandro:/tmp/.ICE-unix/1209'
+    'GIO_=
+LAUNCHED_DESKTOP_FILE' =3D>
+'/home/sandro/.local/share/applications/jetbr=
+ains-phpstorm.desktop'
+    'NLSPATH' =3D> '/usr/dt/lib/nls/msg/%L/%N.cat'=
+
+    'DESKTOP_SESSION' =3D> 'default'
+    'PATH' =3D>
+'/usr/local/bin=
+:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' =3D> '/home/sandro/=
+server/project/repo'
+    'LANG' =3D> 'ru_RU.UTF-8'
+    'GDM_LANG' =3D> =
+'ru_RU.UTF-8'
+    'XFILESEARCHPATH' =3D> '/usr/dt/app-defaults/%L/Dt'
+ =
+   'GDMSESSION' =3D> 'default'
+    'SHLVL' =3D> '1'
+    'HOME' =3D> '/h=
+ome/sandro'
+    'XDG_SEAT' =3D> 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' =
+=3D> 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' =3D> 'default'
+    =
+'LOGNAME' =3D> 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' =3D>
+'unix:abstr=
+act=3D/tmp/dbus-1yOLA90q8J,guid=3D43769cdc5dcf6bff8034b60d572c8cd5'
+    '=
+XDG_DATA_DIRS' =3D>
+'/usr/share/gnome:/usr/local/share/:/usr/share/'
+  =
+  'WINDOWPATH' =3D> '7'
+    'XDG_RUNTIME_DIR' =3D> '/run/user/1000'
+   =
+ 'DISPLAY' =3D> ':0'
+    'XDG_CURRENT_DESKTOP' =3D> 'GNOME'
+    'XAUTHO=
+RITY' =3D> '/var/run/gdm3/auth-for-sandro-8ANpXw/database'
+    '_' =3D> '=
+/usr/bin/php'
+    'PHP_SELF' =3D> 'yii'
+    'SCRIPT_NAME' =3D> 'yii'
+=
+    'SCRIPT_FILENAME' =3D> 'yii'
+    'PATH_TRANSLATED' =3D> 'yii'
+    '=
+DOCUMENT_ROOT' =3D> ''
+    'REQUEST_TIME_FLOAT' =3D> 1462882189.6585
+  =
+  'REQUEST_TIME' =3D> 1462882189
+    'argv' =3D> [
+        0 =3D> 'yii'=
+
+        1 =3D> 'migrat'
+    ]
+    'argc' =3D> 2
+]

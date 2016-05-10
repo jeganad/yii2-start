@@ -1,0 +1,32 @@
+{
+    "name": "conquer/excanvas",
+    "description": "Yii2 excanvas assets",
+    "keywords": ["yii2", "extension", "widget", "excanvas"],
+    "homepage": "https://github.com/borodulin/yii2-excanvas",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/borodulin/yii2-excanvas/issues",
+        "source": "https://github.com/borodulin/yii2-excanvas"
+    },
+    "authors": [
+        {
+            "name": "Andrey Borodulin",
+            "email": "borodulin@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.1.x-dev"
+        }
+      },
+    "require": {
+    	"php": ">=5.4.0",
+    	"yiisoft/yii2": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"conquer\\excanvas\\": ""
+		}
+	}
+}

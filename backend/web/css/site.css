@@ -1,0 +1,10 @@
+/* LOGIN PAGE */
+.bg-login .login-screen{top: 40%;padding-top: 15px;height: 730px;}
+.bg-login .bg-blur:before {background: url('/img/fon-login.jpg');}
+.bg-login .panel-login .panel-heading {padding: 10px;max-height: 100px;}
+.authSocial .btn-group .btn-group{width: 50%;}
+.authSocial .btn-group .btn-group a{text-align: center;}
+.btn-social{margin: 0 !important;margin-top: 0 !important;margin-right: 0 !important;margin-bottom: 0 !important;margin-left: 0 !important;padding: 0 !important;padding-top: 0 !important;padding-right: 0 !important;padding-bottom: 0 !important;padding-left: 0 !important;}
+.authSocial #w0 > .btn-group:last-child{float: none !important;margin: auto;text-align: center;display: inline-block;}
+.authSocial .btn-group-justified {display: block;text-align: center;}
+.btn-group-justified > .btn-group  {float: left !important;}

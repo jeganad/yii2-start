@@ -1,0 +1,548 @@
+2016-05-05 23:50:03 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Missing required arguments: name' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php:157
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('create', Array)
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('create', Array)
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/create', Array)
+#5 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/create', Array)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#8 {main}
+2016-05-05 23:50:03 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'SSH_AGENT_PID' => '1616'
+    'XDG_SESSION_ID' => '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '15919'
+    'GPG_AGENT_INFO' => '/run/user/1000/keyring/gpg:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'USER' => 'sandro'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LD_LIBRARY_PATH' => '/home/sandro/install/idea-IU-145.597.3/bin:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'USERNAME' => 'sandro'
+    'SESSION_MANAGER' => 'local/sandro:@/tmp/.ICE-unix/1578,unix/sandro:/tmp/.ICE-unix/1578'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/sandro/.local/share/applications/jetbrains-idea.desktop'
+    'NLSPATH' => '/usr/dt/lib/nls/msg/%L/%N.cat'
+    'DESKTOP_SESSION' => 'default'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' => '/home/sandro/server/project/repo'
+    'LANG' => 'ru_RU.UTF-8'
+    'GDM_LANG' => 'ru_RU.UTF-8'
+    'XFILESEARCHPATH' => '/usr/dt/app-defaults/%L/Dt'
+    'GDMSESSION' => 'default'
+    'SHLVL' => '1'
+    'HOME' => '/home/sandro'
+    'XDG_SEAT' => 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' => 'default'
+    'LOGNAME' => 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-AtaG2kvbQy,guid=2752c845ae6c8357a79dc8ba572b5d5f'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'WINDOWPATH' => '7'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'XAUTHORITY' => '/var/run/gdm3/auth-for-sandro-gPTPKk/database'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462492203.104
+    'REQUEST_TIME' => 1462492203
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2016-05-06 11:38:57 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php:844
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php(844): PDOStatement->execute()
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Migration.php(260): yii\db\Command->execute()
+#2 /home/sandro/server/project/repo/vendor/dektrium/yii2-user/migrations/m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m140209_132017_init->up()
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/up', Array)
+#11 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/up', Array)
+#12 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(25) NOT NULL,
+	`email` varchar(255) NOT NULL,
+	`password_hash` varchar(60) NOT NULL,
+	`auth_key` varchar(32) NOT NULL,
+	`confirmation_token` varchar(32),
+	`confirmation_sent_at` int(11),
+	`confirmed_at` int(11),
+	`unconfirmed_email` varchar(255),
+	`recovery_token` varchar(32),
+	`recovery_sent_at` int(11),
+	`blocked_at` int(11),
+	`registered_from` int(11),
+	`logged_in_from` int(11),
+	`logged_in_at` int(11),
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Migration.php(260): yii\db\Command->execute()
+#2 /home/sandro/server/project/repo/vendor/dektrium/yii2-user/migrations/m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m140209_132017_init->up()
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/up', Array)
+#11 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/up', Array)
+#12 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2016-05-06 11:38:55 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'SSH_AGENT_PID' => '1250'
+    'XDG_SESSION_ID' => '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '2668'
+    'GPG_AGENT_INFO' => '/run/user/1000/keyring/gpg:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'USER' => 'sandro'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LD_LIBRARY_PATH' => '/home/sandro/ide/PhpStorm-145.258.2/bin:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'USERNAME' => 'sandro'
+    'SESSION_MANAGER' => 'local/sandro:@/tmp/.ICE-unix/1213,unix/sandro:/tmp/.ICE-unix/1213'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/sandro/.local/share/applications/jetbrains-phpstorm.desktop'
+    'NLSPATH' => '/usr/dt/lib/nls/msg/%L/%N.cat'
+    'DESKTOP_SESSION' => 'default'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' => '/home/sandro/server/project/repo'
+    'LANG' => 'ru_RU.UTF-8'
+    'GDM_LANG' => 'ru_RU.UTF-8'
+    'XFILESEARCHPATH' => '/usr/dt/app-defaults/%L/Dt'
+    'GDMSESSION' => 'default'
+    'SHLVL' => '1'
+    'HOME' => '/home/sandro'
+    'XDG_SEAT' => 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' => 'default'
+    'LOGNAME' => 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-n8jiEfo35K,guid=f4a2f1e8553bb00b62ed559e572c69f3'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'WINDOWPATH' => '7'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'XAUTHORITY' => '/var/run/gdm3/auth-for-sandro-1xEIo5/database'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462534735.4142
+    'REQUEST_TIME' => 1462534735
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dektrium/yii2-user/migrations'
+    ]
+    'argc' => 3
+]
+2016-05-06 12:03:03 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php:844
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php(844): PDOStatement->execute()
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Migration.php(260): yii\db\Command->execute()
+#2 /home/sandro/server/project/repo/vendor/dektrium/yii2-user/migrations/m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m140209_132017_init->up()
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/up', Array)
+#11 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/up', Array)
+#12 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(25) NOT NULL,
+	`email` varchar(255) NOT NULL,
+	`password_hash` varchar(60) NOT NULL,
+	`auth_key` varchar(32) NOT NULL,
+	`confirmation_token` varchar(32),
+	`confirmation_sent_at` int(11),
+	`confirmed_at` int(11),
+	`unconfirmed_email` varchar(255),
+	`recovery_token` varchar(32),
+	`recovery_sent_at` int(11),
+	`blocked_at` int(11),
+	`registered_from` int(11),
+	`logged_in_from` int(11),
+	`logged_in_at` int(11),
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Migration.php(260): yii\db\Command->execute()
+#2 /home/sandro/server/project/repo/vendor/dektrium/yii2-user/migrations/m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m140209_132017_init->up()
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/up', Array)
+#11 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/up', Array)
+#12 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2016-05-06 12:03:01 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'SSH_AGENT_PID' => '1250'
+    'XDG_SESSION_ID' => '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '2668'
+    'GPG_AGENT_INFO' => '/run/user/1000/keyring/gpg:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'USER' => 'sandro'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LD_LIBRARY_PATH' => '/home/sandro/ide/PhpStorm-145.258.2/bin:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'USERNAME' => 'sandro'
+    'SESSION_MANAGER' => 'local/sandro:@/tmp/.ICE-unix/1213,unix/sandro:/tmp/.ICE-unix/1213'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/sandro/.local/share/applications/jetbrains-phpstorm.desktop'
+    'NLSPATH' => '/usr/dt/lib/nls/msg/%L/%N.cat'
+    'DESKTOP_SESSION' => 'default'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' => '/home/sandro/server/project/repo'
+    'LANG' => 'ru_RU.UTF-8'
+    'GDM_LANG' => 'ru_RU.UTF-8'
+    'XFILESEARCHPATH' => '/usr/dt/app-defaults/%L/Dt'
+    'GDMSESSION' => 'default'
+    'SHLVL' => '1'
+    'HOME' => '/home/sandro'
+    'XDG_SEAT' => 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' => 'default'
+    'LOGNAME' => 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-n8jiEfo35K,guid=f4a2f1e8553bb00b62ed559e572c69f3'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'WINDOWPATH' => '7'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'XAUTHORITY' => '/var/run/gdm3/auth-for-sandro-1xEIo5/database'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462536181.2638
+    'REQUEST_TIME' => 1462536181
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dektrium/yii2-user/migrations'
+    ]
+    'argc' => 3
+]
+2016-05-06 13:16:47 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php:844
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php(844): PDOStatement->execute()
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Migration.php(260): yii\db\Command->execute()
+#2 /home/sandro/server/project/repo/vendor/dektrium/yii2-user/migrations/m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m140209_132017_init->up()
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/up', Array)
+#11 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/up', Array)
+#12 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(25) NOT NULL,
+	`email` varchar(255) NOT NULL,
+	`password_hash` varchar(60) NOT NULL,
+	`auth_key` varchar(32) NOT NULL,
+	`confirmation_token` varchar(32),
+	`confirmation_sent_at` int(11),
+	`confirmed_at` int(11),
+	`unconfirmed_email` varchar(255),
+	`recovery_token` varchar(32),
+	`recovery_sent_at` int(11),
+	`blocked_at` int(11),
+	`registered_from` int(11),
+	`logged_in_from` int(11),
+	`logged_in_at` int(11),
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/db/Migration.php(260): yii\db\Command->execute()
+#2 /home/sandro/server/project/repo/vendor/dektrium/yii2-user/migrations/m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m140209_132017_init->up()
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate/up', Array)
+#11 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate/up', Array)
+#12 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2016-05-06 13:16:45 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'SSH_AGENT_PID' => '1246'
+    'XDG_SESSION_ID' => '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '3099'
+    'GPG_AGENT_INFO' => '/run/user/1000/keyring/gpg:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'USER' => 'sandro'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LD_LIBRARY_PATH' => '/home/sandro/install/idea-IU-145.597.3/bin:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'USERNAME' => 'sandro'
+    'SESSION_MANAGER' => 'local/sandro:@/tmp/.ICE-unix/1209,unix/sandro:/tmp/.ICE-unix/1209'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/sandro/.local/share/applications/jetbrains-idea.desktop'
+    'NLSPATH' => '/usr/dt/lib/nls/msg/%L/%N.cat'
+    'DESKTOP_SESSION' => 'default'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' => '/home/sandro/server/project/repo'
+    'LANG' => 'ru_RU.UTF-8'
+    'GDM_LANG' => 'ru_RU.UTF-8'
+    'XFILESEARCHPATH' => '/usr/dt/app-defaults/%L/Dt'
+    'GDMSESSION' => 'default'
+    'SHLVL' => '1'
+    'HOME' => '/home/sandro'
+    'XDG_SEAT' => 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' => 'default'
+    'LOGNAME' => 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-1yOLA90q8J,guid=43769cdc5dcf6bff8034b60d572c8cd5'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'WINDOWPATH' => '7'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'XAUTHORITY' => '/var/run/gdm3/auth-for-sandro-8ANpXw/database'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462540605.317
+    'REQUEST_TIME' => 1462540605
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dektrium/yii2-user/migrations'
+    ]
+    'argc' => 3
+]
+2016-05-09 13:36:51 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "log" component to use one or more database targets before executing this migration.' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/log/migrations/m141106_185632_log_init.php:45
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/log/migrations/m141106_185632_log_init.php(53): m141106_185632_log_init->getDbTargets()
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(509): m141106_185632_log_init->up()
+#2 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m141106_185632_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('', Array)
+#7 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('', Array)
+#8 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrate', Array)
+#9 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrate', Array)
+#10 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#12 {main}
+2016-05-09 13:36:49 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'SSH_AGENT_PID' => '1246'
+    'XDG_SESSION_ID' => '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '14103'
+    'GPG_AGENT_INFO' => '/run/user/1000/keyring/gpg:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'USER' => 'sandro'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LD_LIBRARY_PATH' => '/home/sandro/ide/PhpStorm-145.258.2/bin:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'USERNAME' => 'sandro'
+    'SESSION_MANAGER' => 'local/sandro:@/tmp/.ICE-unix/1209,unix/sandro:/tmp/.ICE-unix/1209'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/sandro/.local/share/applications/jetbrains-phpstorm.desktop'
+    'NLSPATH' => '/usr/dt/lib/nls/msg/%L/%N.cat'
+    'DESKTOP_SESSION' => 'default'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' => '/home/sandro/server/project/repo'
+    'LANG' => 'ru_RU.UTF-8'
+    'GDM_LANG' => 'ru_RU.UTF-8'
+    'XFILESEARCHPATH' => '/usr/dt/app-defaults/%L/Dt'
+    'GDMSESSION' => 'default'
+    'SHLVL' => '1'
+    'HOME' => '/home/sandro'
+    'XDG_SEAT' => 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' => 'default'
+    'LOGNAME' => 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-1yOLA90q8J,guid=43769cdc5dcf6bff8034b60d572c8cd5'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'WINDOWPATH' => '7'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'XAUTHORITY' => '/var/run/gdm3/auth-for-sandro-8ANpXw/database'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462801009.1095
+    'REQUEST_TIME' => 1462801009
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/log/migrations/'
+    ]
+    'argc' => 3
+]
+2016-05-10 12:09:49 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migrat".' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('migrat', Array)
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrat', Array)
+#2 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "migrat".' in /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php:179
+Stack trace:
+#0 /home/sandro/server/project/repo/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migrat', Array)
+#1 /home/sandro/server/project/repo/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/sandro/server/project/repo/yii(27): yii\base\Application->run()
+#3 {main}
+2016-05-10 12:09:49 [-][-][-][info][application] $_SERVER = [
+    'XDG_VTNR' => '7'
+    'SSH_AGENT_PID' => '1246'
+    'XDG_SESSION_ID' => '1'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '14103'
+    'GPG_AGENT_INFO' => '/run/user/1000/keyring/gpg:0:1'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'USER' => 'sandro'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LD_LIBRARY_PATH' => '/home/sandro/ide/PhpStorm-145.258.2/bin:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'USERNAME' => 'sandro'
+    'SESSION_MANAGER' => 'local/sandro:@/tmp/.ICE-unix/1209,unix/sandro:/tmp/.ICE-unix/1209'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/home/sandro/.local/share/applications/jetbrains-phpstorm.desktop'
+    'NLSPATH' => '/usr/dt/lib/nls/msg/%L/%N.cat'
+    'DESKTOP_SESSION' => 'default'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'PWD' => '/home/sandro/server/project/repo'
+    'LANG' => 'ru_RU.UTF-8'
+    'GDM_LANG' => 'ru_RU.UTF-8'
+    'XFILESEARCHPATH' => '/usr/dt/app-defaults/%L/Dt'
+    'GDMSESSION' => 'default'
+    'SHLVL' => '1'
+    'HOME' => '/home/sandro'
+    'XDG_SEAT' => 'seat0'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'XDG_SESSION_DESKTOP' => 'default'
+    'LOGNAME' => 'sandro'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-1yOLA90q8J,guid=43769cdc5dcf6bff8034b60d572c8cd5'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/'
+    'WINDOWPATH' => '7'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':0'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'XAUTHORITY' => '/var/run/gdm3/auth-for-sandro-8ANpXw/database'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462882189.6585
+    'REQUEST_TIME' => 1462882189
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrat'
+    ]
+    'argc' => 2
+]
