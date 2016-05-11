@@ -8,3 +8,9 @@
 .authSocial #w0 > .btn-group:last-child{float: none !important;margin: auto;text-align: center;display: inline-block;}
 .authSocial .btn-group-justified {display: block;text-align: center;}
 .btn-group-justified > .btn-group  {float: left !important;}
+
+.btn-vkontakte {
+    color: #fff;
+    background-color: #5B7FA6;
+    border-color: rgba(0,0,0,0.2);
+}

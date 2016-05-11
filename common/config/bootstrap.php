@@ -2,6 +2,7 @@
 
 use yii\base\Event;
 use dektrium\user\controllers\SecurityController;
+use dektrium\user\events\AuthEvent;
 
 Yii::setAlias('@base', realpath(__DIR__.'/../../'));
 Yii::setAlias('@common', realpath(__DIR__.'/../../common'));
